@@ -6,10 +6,10 @@ import mysql.connector
 ###########  configure mysql db connfiguration properties ###############
 
 db_config = {
-        "host":"milesmcit225.mysql.pythonanywhere-services.com",
-        "user":"milesmcit225",
-        "password":"mysqlpassword",
-        "database":"milesmcit225$bottle"
+        "host":"your pythonanywhere account name>.mysql.pythonanywhere-services.com",
+        "user":"<your mysql username>",
+        "password":"<your mysql password>",
+        "database":"<your pythonanywere account name>$default"
         }
 
 ###########  setup DB connection and cursor  ############################
