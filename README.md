@@ -118,6 +118,22 @@ PRIMARY KEY (``id``)
 
 ![wsgi_params](images/23%20gotowebmenu.png)
 
+23. Click on the "mysite" directory.
+
+![go to mysite directory](images/24%20click_on_mysite.png)
+
+24. Create a new directory by typing "views", then click "New directory".
+
+![create directory](images/25%20create_directory.png)
+
+25. Create a new file by typing "create_user.tpl" and click "New file".
+
+![create user template](images/26%20create_user.png)
+
+26. Create a new file by typing "show_users.tpl" and click "New file".
+
+![create user template](images/27%20show_user.png)
+
 
 
 
