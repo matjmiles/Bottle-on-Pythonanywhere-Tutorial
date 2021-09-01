@@ -30,7 +30,7 @@ def create_user():
 
         insert_stmt = (
             "INSERT INTO users(first_name, last_name) VALUES (%s, %s)"
-            )
+        )
 
         data = (var_first_name, var_last_name)
 
@@ -40,7 +40,12 @@ def create_user():
         mysqlConnection.commit()
 
 
-        return '<p>The new user created with ID %s</p>' % new_id
+        return '<p>The new user created with ID %s</p> \
+        <div style="padding-top: 5px"> <a href="/create_user"> \
+        <h3>Add Another User<h3></a> </div> \
+        <div style="padding-top: 5px"> <a href="/"> \
+        <h3>Show All User<h3></a>'  % new_id
+
     else:
         return template('create_user.tpl')
 
