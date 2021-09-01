@@ -43,12 +43,11 @@
 
 8. Copy the script below. We will paste it into the MySQL console to create the "users" table.
 
-`CREATE TABLE ``users`` (
-``id`` int NOT NULL AUTO_INCREMENT COMMENT 'primary key',
-``first_name`` varchar(25) NOT NULL,
-``last_name`` varchar(25) NOT NULL,
-PRIMARY KEY (``id``)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;`
+`
+CREATE TABLE users ( id int NOT NULL AUTO_INCREMENT COMMENT 'primary key', first_name varchar(25) 
+NOT NULL, last_name varchar(25) NOT NULL, PRIMARY KEY (id) ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT 
+CHARSET=utf8;
+`
 
 9. Copy the script below. We will paste it into the MySQL console to create the "users" table. 
    Then press "enter"
