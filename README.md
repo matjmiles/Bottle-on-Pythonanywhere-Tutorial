@@ -3,7 +3,7 @@
 
 ### Contents
 * <a href="#download-ubuntu">Create pythonanywhere account</a>
-* <a href="#install-oracle">Create MySQL Database</a>
+* <a href="#install-mysql">Create MySQL Database</a>
 * <a href="#install-oracle">Create MySQL Database</a>
 
 
