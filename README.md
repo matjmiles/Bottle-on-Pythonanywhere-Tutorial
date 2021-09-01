@@ -2,8 +2,14 @@
  How to create a basic database driven website with Bottle and MySQL
 
 ### Contents
-* <a href="#create-python">Create pythonanywhere account</a>
+* <a href="#create-python">Create Pythonanywhere Account</a>
 * <a href="#install-mysql">Create MySQL Database</a>
+* <a href="#create-table">Create users Table From Script</a>
+* <a href="#create-webapp">Create Bottle Web Application</a>
+* <a href="#config-wsgi"></a>Configure Webb Application</a>
+* <a href="#install-oracle">Create MySQL Database</a>
+* <a href="#install-oracle">Create MySQL Database</a>
+* <a href="#install-oracle">Create MySQL Database</a>
 * <a href="#install-oracle">Create MySQL Database</a>
 
 
@@ -49,7 +55,7 @@
 
 ![open mysql console](images/08%20open_db_console.png)
 
-###<a id="user-content-create-table" class="anchor" aria-hidden="true" href="#create-table"></a>Create Users Table From Script
+###<a id="user-content-create-table" class="anchor" aria-hidden="true" href="#create-table"></a>Create users Table From Script
 
 8. Copy the script below. We will paste it into the MySQL console to create the "users" table.
 
