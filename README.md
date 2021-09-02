@@ -6,15 +6,13 @@
 * <a href="#install-mysql">Create MySQL Database</a>
 * <a href="#create-table">Create users Table From Script</a>
 * <a href="#create-webapp">Create Bottle Web Application</a>
-* <a href="#config-wsgi"></a>Configure Webb Application</a>
-* <a href="#install-oracle">Create MySQL Database</a>
-* <a href="#install-oracle">Create MySQL Database</a>
-* <a href="#install-oracle">Create MySQL Database</a>
-* <a href="#install-oracle">Create MySQL Database</a>
+* <a href="#config-wsgi">Configure Web Application</a>
+* <a href="#create-templates">Create Web Templates</a>
+* <a href="#configure-bottle">Replace and configure bottle_app.py (The Controller)</a>
+* <a href="#launch-webapp">Launch and Run the Application</a>
 
 
 ### <a id="user-content-create-python" class="anchor" aria-hidden="true" href="#create-python"></a>Create Pythonanywhere Account
-
 
 
 1. Go to https://pythonanywhere.com and click on "Pricing and signup".
@@ -78,7 +76,7 @@ CHARSET=utf8;
 
 ![show tables](images/13%20table_show_tables.png)
 
-###<a id="user-content-create-webapp" class="anchor" aria-hidden="true" href="#create-webapp"></a>Create Bottle Web Application
+### <a id="user-content-create-webapp" class="anchor" aria-hidden="true" href="#create-webapp"></a>Create Bottle Web Application
 
 12. Click on the python icon to return to the dashboard.
 
@@ -112,7 +110,7 @@ CHARSET=utf8;
 
 ![scroll down](images/20%20scroll_down.png)
 
-###<a id="user-content-config-wsgi" class="anchor" aria-hidden="true" href="#config-wsgi"></a>Configure Webb Application
+### <a id="user-content-config-wsgi" class="anchor" aria-hidden="true" href="#config-wsgi"></a>Configure Webb Application
 
 20. Let's click at the wsgi configuration file which holds important information about our project.
 
@@ -129,7 +127,7 @@ CHARSET=utf8;
 
 ![wsgi_params](images/22%20wsgi_params.png)
 
-###<a id="user-content-create-templates" class="anchor" aria-hidden="true" href="#create-templates"></a>Create Web Templates
+### <a id="user-content-create-templates" class="anchor" aria-hidden="true" href="#create-templates"></a>Create Web Templates
 
 #22. Click on the menu bar, then click "Web"
 
@@ -205,7 +203,7 @@ CHARSET=utf8;
 <a href="/create_user"><h3>Add a New User<h3></a>
 </div>
 ````
-#### <a id="user-content-configure-bottle" class="anchor" aria-hidden="true" href="#configure-bottle"></a>Replace and configure bottle_app.py (The Controller)
+### <a id="user-content-configure-bottle" class="anchor" aria-hidden="true" href="#configure-bottle"></a>Replace and configure bottle_app.py (The Controller)
 
 32. Click on the "mysite" folder.
 
@@ -316,7 +314,7 @@ db_config = {
 
 ![save bottle_app.py](images/30%20click save.png)
 
-### <a id="user-content-launch-webapp" class="anchor" aria-hidden="true" href="#launch-webapp"></a>Launch and Run the Application</div>
+### <a id="user-content-launch-webapp" class="anchor" aria-hidden="true" href="#launch-webapp"></a>Launch and Run the Application
 
 
 39. Click on the menu bar then select "Web".
