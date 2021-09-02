@@ -130,7 +130,7 @@ CHARSET=utf8;
 
 ### <a id="user-content-create-templates" class="anchor" aria-hidden="true" href="#create-templates"></a>Create Web Templates
 
-#22. Click on the menu bar, then click "Web"
+22. Click on the menu bar, then click "Web"
 
 ![wsgi_params](images/23%20gotowebmenu.png)
 
