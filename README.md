@@ -117,9 +117,9 @@ CHARSET=utf8;
 
 ![scroll down](images/21%20wsgi_file.png)
 
-21. 1. The first arrow points to the home location of our web application (/home/bottlemjm/mysite).
-   2. The second arrow points to the location of the views or web templates that will display content (/home/bottlemjm/mysite/views)
-   3. The third arrow points to "import application" which refers to the bottle_app information and how it will be imported into the controller. Many web applications follow the MVC framework or model, view, controller. In this project:
+21. The first arrow points to the home location of our web application (/home/bottlemjm/mysite). 
+    The second arrow points to the location of the views or web templates that will display content (/home/bottlemjm/mysite/views)
+    The third arrow points to "import application" which refers to the bottle_app information and how it will be imported into the controller. Many web applications follow the MVC framework or model, view, controller. In this project:
 
        Model = MySQL DB (the data structures for the project)
        Viewer = create_user.tpl, show_users.tpl (web templates used to display data to users)
@@ -156,11 +156,16 @@ CHARSET=utf8;
 %# Send a GET request with the first and last names to the create_user
 %# function which resides in ./mysite/bottle_app.py
 
+<div width="250px">
 <form action="/create_user" method="GET">
+    First Name:
   <input type="text" size="100" maxlength="100" name="first_name">
+  <br />
+  Last Name:
   <input type="text" size="100" maxlength="100" name="last_name">
   <input type="submit" name="save" value="save">
 </form>
+</div>
 ````
 
 28. Click on the "views" folder.
