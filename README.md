@@ -1,7 +1,7 @@
 # Bottle on Pythonanywhere Tutorial
  How to create a basic database driven website with Bottle and MySQL
 
-### Contents
+## Contents
 * <a href="#create-python">Create Pythonanywhere Account</a>
 * <a href="#install-mysql">Create MySQL Database</a>
 * <a href="#create-table">Create users Table From Script</a>
@@ -15,7 +15,7 @@
 ### <a id="user-content-create-python" class="anchor" aria-hidden="true" href="#create-python"></a>Create Pythonanywhere Account
 
 
-1. Go to https://pythonanywhere.com and click on "Pricing and signup".
+1. Go to <a href="pythonanywhere.com" target="_blank">https://pythonanywhere.com</a> and click on "Pricing and signup".
 
 ![pricing and signup](images/01%20pythonanywhere.png)
 
@@ -34,6 +34,7 @@
 ![confirm email](images/05%20confirm_email.png)
 
 ### <a id="user-content-install-mysql" class="anchor" aria-hidden="true" href="#install-mysql"></a>Create MySQL Database
+
 
 5. Instantiate a MySQL database by clicking on the "Databases" link.
 
