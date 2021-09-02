@@ -13,8 +13,7 @@
 * <a href="#install-oracle">Create MySQL Database</a>
 
 
-
-###><a id="user-content-create-python" class="anchor" aria-hidden="true" href="#create-python"></a>Create Pythonanywhere Account</div>
+### <a id="user-content-create-python" class="anchor" aria-hidden="true" href="#create-python"></a>Create Pythonanywhere Account
 
 
 
@@ -36,7 +35,7 @@
 
 ![confirm email](images/05%20confirm_email.png)
 
-###<a id="user-content-install-mysql" class="anchor" aria-hidden="true" href="#install-mysql"></a>Create MySQL Database
+### <a id="user-content-install-mysql" class="anchor" aria-hidden="true" href="#install-mysql"></a>Create MySQL Database
 
 5. Instantiate a MySQL database by clicking on the "Databases" link.
 
@@ -55,7 +54,7 @@
 
 ![open mysql console](images/08%20open_db_console.png)
 
-###<a id="user-content-create-table" class="anchor" aria-hidden="true" href="#create-table"></a>Create users Table From Script
+### <a id="user-content-create-table" class="anchor" aria-hidden="true" href="#create-table"></a>Create users Table From Script
 
 8. Copy the script below. We will paste it into the MySQL console to create the "users" table.
 
