@@ -15,7 +15,7 @@
 ### <a id="user-content-create-python" class="anchor" aria-hidden="true" href="#create-python"></a>Create Pythonanywhere Account
 
 
-1. Go to <a href="https://pythonanywhere.com" target="_blank">Pythonanywhere Website</a> and click on "Pricing and signup".
+1. Go to <a href="https://pythonanywhere.com" target="_blank">Pythonanywhere Website (right click on this link to open in new window)</a> and click on "Pricing and signup".
 
 ![pricing and signup](images/01%20pythonanywhere.png)
 
