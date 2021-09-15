@@ -23,7 +23,7 @@
 
 ![pricing and signup](images/01%20pythonanywhere.png)
 
-2. Click on the button "Create a Beginner account"
+2. Click on the button "Create a Beginner account".
 
 ![create beginner account](images/02%20free_account.png)
 
